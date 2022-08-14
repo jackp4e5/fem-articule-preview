@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="build/img/logo1.svg"
+    />
+
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="card">
+        <div class="card__image">
+          <picture>
+            <source srcset="build/img/drawers.avif" type="image/avif" />
+            <source srcset="build/img/drawers.webp" type="image/webp" />
+            <img
+              class="card__iamge--img"
+              src="build/img/drawers.jpg"
+              alt="image hero"
+            />
+          </picture>
+        </div>
+        <section class="card__content">
+          <div class="crad__content--body">
+            <h1 class="card__heading">
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h1>
+            <p class="card__text">
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips to
+              help you make any room feel complete.
+            </p>
+          </div>
+          <div class="share">
+            <picture>
+              <source
+                srcset="build/img/avatar-michelle.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="build/img/avatar-michelle.webp"
+                type="image/webp"
+              />
+              <img
+                class="share__avatar"
+                src="build/img/avatar-michelle.jpg"
+                alt=" image avatar"
+              />
+            </picture>
+            <p class="share__name">Michelle Appleton</p>
+            <p class="share__date">28 Jun 2020</p>
+            <div class="see">Share</div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

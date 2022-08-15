@@ -122,7 +122,7 @@
 
 @media (min-width:768px) {
     .card{
-        width: 800px;
+        width: 790px;
         display: grid;
         grid-template-columns: 1.5fr 2fr;
         overflow: visible;
@@ -166,6 +166,15 @@
             padding-block: 15px;
             transform:scale(0);
             box-shadow: 1px 5px 14px lighten(#48556a,30%);
+            &::after{
+                content: "";
+                background-color: hsl(217deg 19% 35%);
+                bottom: -12%;
+                height: 13px;
+                position: absolute;
+                transform: rotate(44deg);
+                width: 16px;
+            }
         }
         &__action{
             font-size: 12px;
